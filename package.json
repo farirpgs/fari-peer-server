@@ -1,0 +1,20 @@
+{
+  "name": "fari-peer-server",
+  "version": "1.0.0",
+  "description": "Peer Server for Fari. License: AGPL-3.0-or-later",
+  "main": "lib/index.js",
+  "repository": "https://github.com/fariapp/fari-peer-server.git",
+  "author": "René-Pier Deshaies-Gélinas",
+  "license": "AGPL-3.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon lib/index.js"
+  },
+  "dependencies": {
+    "peer": "^0.5.3",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
